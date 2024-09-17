@@ -14,15 +14,15 @@ public class Admin {
         return vehicleList;
     }
 
-    public void setVehicleList(List<Vehicle> vehicleList) {
-        this.vehicleList = vehicleList;
+    public void addVehicle(Vehicle vehicle) {
+        this.vehicleList.add(vehicle);
     }
 
     public List<Conductor> getConductorList() {
         return conductorList;
     }
 
-    public void setConductorList(List<Conductor> conductorList) {
-        this.conductorList = conductorList;
+    public void addConductor(Conductor conductor) {
+        this.conductorList.add(conductor);
     }
 }
